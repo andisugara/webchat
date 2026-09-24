@@ -1085,7 +1085,7 @@
       "label": "generateChatReply()",
       "file_type": "code",
       "source_file": "backend/src/services/fireworksService.ts",
-      "source_location": "L195",
+      "source_location": "L196",
       "_origin": "ast",
       "id": "backend_src_services_fireworksservice_generatechatreply",
       "community": 7,
@@ -6137,7 +6137,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/services/fireworksService.ts",
-      "source_location": "L195",
+      "source_location": "L196",
       "weight": 1.0,
       "_origin": "ast",
       "source": "backend_src_services_fireworksservice",
@@ -6184,7 +6184,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/services/fireworksService.ts",
-      "source_location": "L201",
+      "source_location": "L202",
       "weight": 1.0,
       "_origin": "ast",
       "source": "backend_src_services_fireworksservice_generatechatreply",
@@ -6196,7 +6196,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/services/fireworksService.ts",
-      "source_location": "L256",
+      "source_location": "L257",
       "weight": 1.0,
       "_origin": "ast",
       "source": "backend_src_services_fireworksservice_generatechatreply",
@@ -9562,5 +9562,6 @@
       "confidence_score": 1.0
     }
   ],
-  "hyperedges": []
+  "hyperedges": [],
+  "built_at_commit": "c79dfc57e1c74b99bfe590bb8fa243f7e71e0baa"
 }

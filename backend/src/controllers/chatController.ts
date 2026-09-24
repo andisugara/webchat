@@ -110,11 +110,16 @@ export async function sendMessage(req: Request, res: Response): Promise<void> {
 
     const lowerText = text.toLowerCase();
 
-    // 4. Fetch recent chat history for context & conversational flow
+    // 4. Fetch recent chat history (LATEST 10 messages in chronological order)
     const historyRes = await query(
-      `SELECT sender_type, content, created_at FROM chat_messages 
-       WHERE session_id = $1 AND sender_type IN ('user', 'assistant')
-       ORDER BY created_at ASC LIMIT 10`,
+      `SELECT sender_type, content, created_at FROM (
+         SELECT sender_type, content, created_at 
+         FROM chat_messages 
+         WHERE session_id = $1 AND sender_type IN ('user', 'assistant')
+         ORDER BY created_at DESC 
+         LIMIT 10
+       ) sub
+       ORDER BY created_at ASC`,
       [sessionId]
     );
 
@@ -122,6 +127,15 @@ export async function sendMessage(req: Request, res: Response): Promise<void> {
       role: (row.sender_type === 'user' ? 'user' : 'assistant') as 'user' | 'assistant',
       content: row.content,
     }));
+
+    // Ensure the current user message is definitely at the end of formattedHistory if needed
+    if (
+      formattedHistory.length === 0 ||
+      formattedHistory[formattedHistory.length - 1].content !== text ||
+      formattedHistory[formattedHistory.length - 1].role !== 'user'
+    ) {
+      formattedHistory.push({ role: 'user', content: text });
+    }
 
     const recentUserMessages = historyRes.rows
       .filter((r: any) => r.sender_type === 'user')

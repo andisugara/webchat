@@ -10,8 +10,8 @@
     "semantic_hash": ""
   },
   "backend/src/controllers/chatController.ts": {
-    "mtime": 1790215051.938294,
-    "ast_hash": "dd625f061628e5b767ffe0cb0345e033",
+    "mtime": 1790220431.5297863,
+    "ast_hash": "36318b0a0837f47933635f2672bbaeed",
     "semantic_hash": ""
   },
   "backend/src/controllers/knowledgeController.ts": {

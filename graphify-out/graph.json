@@ -4577,7 +4577,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "backend/src/controllers/chatController.ts",
-      "source_location": "L208",
+      "source_location": "L222",
       "weight": 1.0,
       "_origin": "ast",
       "source": "backend_src_controllers_chatcontroller_sendmessage",
@@ -4590,7 +4590,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/controllers/chatController.ts",
-      "source_location": "L209",
+      "source_location": "L223",
       "weight": 1.0,
       "_origin": "ast",
       "source": "backend_src_controllers_chatcontroller_sendmessage",
@@ -4614,7 +4614,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/controllers/chatController.ts",
-      "source_location": "L347",
+      "source_location": "L361",
       "weight": 1.0,
       "_origin": "ast",
       "source": "backend_src_controllers_chatcontroller_sendmessage",
@@ -4626,7 +4626,7 @@
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "backend/src/controllers/chatController.ts",
-      "source_location": "L344",
+      "source_location": "L358",
       "weight": 1.0,
       "_origin": "ast",
       "source": "backend_src_controllers_chatcontroller_sendmessage",
@@ -9563,5 +9563,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "c79dfc57e1c74b99bfe590bb8fa243f7e71e0baa"
+  "built_at_commit": "26cc796594804308fa51913d73fa9569ce03cb09"
 }
