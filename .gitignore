@@ -1,0 +1,23 @@
+# Environment files
+.env
+.env.*
+*.env
+backend/.env
+frontend/.env
+
+# Dependencies & build
+node_modules/
+dist/
+
+# Logs & temporary files
+logs/
+*.log
+npm-debug.log*
+
+# OS & IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Agents
+.agents/

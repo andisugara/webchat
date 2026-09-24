@@ -1,0 +1,20 @@
+{
+  "0": "LiveChatAgentView.vue",
+  "1": "compilerOptions",
+  "2": "PlaygroundView.vue",
+  "3": "devDependencies",
+  "4": "dependencies",
+  "5": "TicketingPipelineView.vue",
+  "6": "KnowledgeView.vue",
+  "7": "TrackTicketModal.vue",
+  "8": "index.ts",
+  "9": "CreateTicketModal.vue",
+  "10": "package.json",
+  "11": "compilerOptions",
+  "12": "AnalyticsView.vue",
+  "13": "PreChatModal.vue",
+  "14": "postcss.config.js",
+  "15": "RagInspectorDrawer.vue",
+  "16": "tailwind.config.js",
+  "17": "vite.config.ts"
+}

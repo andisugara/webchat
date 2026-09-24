@@ -1,0 +1,22 @@
+{
+  "0": "query",
+  "1": "TicketingPipelineView.vue",
+  "2": "LiveChatAgentView.vue",
+  "3": "devDependencies",
+  "4": "devDependencies",
+  "5": "compilerOptions",
+  "6": "PlaygroundView.vue",
+  "7": "ragService.ts",
+  "8": "AnalyticsView.vue",
+  "9": "dependencies",
+  "10": "dependencies",
+  "11": "KnowledgeView.vue",
+  "12": "compilerOptions",
+  "13": "compilerOptions",
+  "14": "scrape_sita.py",
+  "15": "postcss.config.js",
+  "16": "tailwind.config.js",
+  "17": "vite.config.ts",
+  "18": "server.ts",
+  "19": "RagInspectorDrawer.vue"
+}

@@ -1,0 +1,117 @@
+{
+  "package.json": {
+    "mtime": 1789682243.5897353,
+    "ast_hash": "d11d9f639c45211ebb716d5bd600d5e2",
+    "semantic_hash": ""
+  },
+  "postcss.config.js": {
+    "mtime": 1789682266.7421827,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": ""
+  },
+  "src/App.vue": {
+    "mtime": 1789682521.5441198,
+    "ast_hash": "78e784f817624de0b44aa31eac5ce8f3",
+    "semantic_hash": ""
+  },
+  "src/components/CreateTicketModal.vue": {
+    "mtime": 1789682416.6103313,
+    "ast_hash": "7bf58ea2ebabe7a97f9fe8908e1887f7",
+    "semantic_hash": ""
+  },
+  "src/components/Navbar.vue": {
+    "mtime": 1789696337.6748042,
+    "ast_hash": "291f5228f6f3a419bcf9a3075cbecbc4",
+    "semantic_hash": ""
+  },
+  "src/components/PreChatModal.vue": {
+    "mtime": 1789682405.6981637,
+    "ast_hash": "75027df5addf2785c128068a9c328c09",
+    "semantic_hash": ""
+  },
+  "src/components/RagInspectorDrawer.vue": {
+    "mtime": 1789682434.843606,
+    "ast_hash": "07d238f55f15764e7f7b7970ea928a44",
+    "semantic_hash": ""
+  },
+  "src/components/TrackTicketModal.vue": {
+    "mtime": 1789682427.3821945,
+    "ast_hash": "55939fd4eeec5e74768b8f631a5099b5",
+    "semantic_hash": ""
+  },
+  "src/main.ts": {
+    "mtime": 1789682527.786707,
+    "ast_hash": "6ba80287a5709d37e90e7bf516f135bb",
+    "semantic_hash": ""
+  },
+  "src/router/index.ts": {
+    "mtime": 1789682516.6932378,
+    "ast_hash": "39edacce75ad605e05f4f3416b1cadc3",
+    "semantic_hash": ""
+  },
+  "src/services/api.ts": {
+    "mtime": 1789682373.1931431,
+    "ast_hash": "039578e790fb8cd568fd4e11e64da8a7",
+    "semantic_hash": ""
+  },
+  "src/services/socket.ts": {
+    "mtime": 1789682377.361747,
+    "ast_hash": "3dfebae0343ba5a50069a82cc559124f",
+    "semantic_hash": ""
+  },
+  "src/stores/chatStore.ts": {
+    "mtime": 1789699762.15999,
+    "ast_hash": "a0d61261439a3667e11cdd32e3d48471",
+    "semantic_hash": ""
+  },
+  "src/views/AnalyticsView.vue": {
+    "mtime": 1789682510.3171403,
+    "ast_hash": "f15d9665451187c56c5ee784bfade8be",
+    "semantic_hash": ""
+  },
+  "src/views/KnowledgeView.vue": {
+    "mtime": 1789682496.498259,
+    "ast_hash": "536de8ebc000d5197726028c1c891b1e",
+    "semantic_hash": ""
+  },
+  "src/views/LiveChatAgentView.vue": {
+    "mtime": 1789682465.9909868,
+    "ast_hash": "bd6c6362e3111226d1bcbb6b10f1a1f2",
+    "semantic_hash": ""
+  },
+  "src/views/PlaygroundView.vue": {
+    "mtime": 1789951571.618921,
+    "ast_hash": "ba928e767b2def8e514a73710cae9676",
+    "semantic_hash": ""
+  },
+  "src/views/TicketingPipelineView.vue": {
+    "mtime": 1789682483.2805653,
+    "ast_hash": "763cf5c0dbd601ec61fc3f6f4ca31004",
+    "semantic_hash": ""
+  },
+  "tailwind.config.js": {
+    "mtime": 1789682261.2674499,
+    "ast_hash": "63019eaf79a3ff48c2b093bb8d03a259",
+    "semantic_hash": ""
+  },
+  "tsconfig.json": {
+    "mtime": 1789682248.1348631,
+    "ast_hash": "14ae7d66640b28a478d826385c09a17b",
+    "semantic_hash": ""
+  },
+  "tsconfig.node.json": {
+    "mtime": 1789682252.6641805,
+    "ast_hash": "767b2e9abe6452170cdc399ca052cfbc",
+    "semantic_hash": ""
+  },
+  "vite.config.ts": {
+    "mtime": 1789682257.1013274,
+    "ast_hash": "20fca79a48d69916be3fd70289b80074",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1789682271.6631575,
+    "ast_hash": "81ed5f4b8519e7c6a2aadbb5a6e57244",
+    "semantic_hash": ""
+  }
+}

@@ -1,0 +1,33 @@
+services:
+  webchat-backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: webchat-backend:latest
+    container_name: webchat-backend
+    restart: always
+    ports:
+      - "8024:8021"
+    env_file:
+      - ./backend/.env
+    networks:
+      - my-networks
+
+  webchat-frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: webchat-frontend:latest
+    container_name: webchat-frontend
+    restart: always
+    ports:
+      - "8025:80"
+    depends_on:
+      - webchat-backend
+    networks:
+      - my-networks
+
+networks:
+  my-networks:
+    driver: bridge
+    external: true

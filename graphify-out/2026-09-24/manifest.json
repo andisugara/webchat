@@ -1,0 +1,217 @@
+{
+  "backend/package.json": {
+    "mtime": 1789681770.162551,
+    "ast_hash": "f1eb64316eba1eb3cad3a35d66d57670",
+    "semantic_hash": ""
+  },
+  "backend/src/controllers/analyticsController.ts": {
+    "mtime": 1789682062.7621918,
+    "ast_hash": "2d7e6878f86bee2d39be253547f14ccf",
+    "semantic_hash": ""
+  },
+  "backend/src/controllers/chatController.ts": {
+    "mtime": 1790215051.938294,
+    "ast_hash": "dd625f061628e5b767ffe0cb0345e033",
+    "semantic_hash": ""
+  },
+  "backend/src/controllers/knowledgeController.ts": {
+    "mtime": 1789682054.5953567,
+    "ast_hash": "7d04c46dc0230132e2a5b5b6bf6f4723",
+    "semantic_hash": ""
+  },
+  "backend/src/controllers/sessionController.ts": {
+    "mtime": 1789699750.5818412,
+    "ast_hash": "1207a83766dc7ee8dc707f723553579e",
+    "semantic_hash": ""
+  },
+  "backend/src/controllers/ticketController.ts": {
+    "mtime": 1789951492.9267142,
+    "ast_hash": "e34cbe48009fe286708cf009f31cc113",
+    "semantic_hash": ""
+  },
+  "backend/src/db/index.ts": {
+    "mtime": 1789681890.040637,
+    "ast_hash": "4a7fdef3de4282406bb1d13b4aa738fd",
+    "semantic_hash": ""
+  },
+  "backend/src/db/init.ts": {
+    "mtime": 1789681897.2310266,
+    "ast_hash": "3eb042426b4b746d15b8daecc7c3210e",
+    "semantic_hash": ""
+  },
+  "backend/src/routes/api.ts": {
+    "mtime": 1789682074.9141996,
+    "ast_hash": "e1e708716d99f3c7119518a21adfd947",
+    "semantic_hash": ""
+  },
+  "backend/src/scripts/scrape_sita.ts": {
+    "mtime": 1789681968.2635798,
+    "ast_hash": "934499571d20cdb1bbe0177c7cf7fbd2",
+    "semantic_hash": ""
+  },
+  "backend/src/server.ts": {
+    "mtime": 1789682080.942119,
+    "ast_hash": "533f1a06248c299337102436c80a4761",
+    "semantic_hash": ""
+  },
+  "backend/src/services/chunkerService.ts": {
+    "mtime": 1789681929.713682,
+    "ast_hash": "716676a16a1c2d9e682cf20ed7f04f35",
+    "semantic_hash": ""
+  },
+  "backend/src/services/embeddingService.ts": {
+    "mtime": 1789681924.1380901,
+    "ast_hash": "a57080a5f63440fbc2de158d806d2112",
+    "semantic_hash": ""
+  },
+  "backend/src/services/fireworksService.ts": {
+    "mtime": 1789951511.5210075,
+    "ast_hash": "edca4a9502f0cb3a0feb7e407ad7272d",
+    "semantic_hash": ""
+  },
+  "backend/src/services/ragService.ts": {
+    "mtime": 1789702343.1125686,
+    "ast_hash": "2e811f274a58a2b3d1a065636fb9f3d6",
+    "semantic_hash": ""
+  },
+  "backend/src/services/scraperService.ts": {
+    "mtime": 1789681962.649867,
+    "ast_hash": "c84faa4140d06c1bdc347c9f5de612a8",
+    "semantic_hash": ""
+  },
+  "backend/src/sockets/chatSocket.ts": {
+    "mtime": 1789682069.0486553,
+    "ast_hash": "107aef1bc50f858648d6f943910e01f5",
+    "semantic_hash": ""
+  },
+  "backend/tsconfig.json": {
+    "mtime": 1789681774.2546175,
+    "ast_hash": "8e68b2463c6e7e30596eef549fdd47fe",
+    "semantic_hash": ""
+  },
+  "frontend/package.json": {
+    "mtime": 1789682243.5897353,
+    "ast_hash": "d11d9f639c45211ebb716d5bd600d5e2",
+    "semantic_hash": ""
+  },
+  "frontend/postcss.config.js": {
+    "mtime": 1789682266.7421827,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": ""
+  },
+  "frontend/src/App.vue": {
+    "mtime": 1789682521.5441198,
+    "ast_hash": "78e784f817624de0b44aa31eac5ce8f3",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/CreateTicketModal.vue": {
+    "mtime": 1790215205.7188523,
+    "ast_hash": "b47fc907950ad952cdb79e4438876bb1",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/Navbar.vue": {
+    "mtime": 1790215074.7696989,
+    "ast_hash": "ab5deed9000bcc9b5c2e3dd8cf871b5f",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/PreChatModal.vue": {
+    "mtime": 1790215178.5325263,
+    "ast_hash": "05e170954abff5e95458e1664e88e2d5",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/RagInspectorDrawer.vue": {
+    "mtime": 1790215230.8894434,
+    "ast_hash": "91d6eadcc85caa54266d599e5440c628",
+    "semantic_hash": ""
+  },
+  "frontend/src/components/TrackTicketModal.vue": {
+    "mtime": 1790215191.369131,
+    "ast_hash": "c1c4f1b90bff0b927bc4f19256b47ade",
+    "semantic_hash": ""
+  },
+  "frontend/src/main.ts": {
+    "mtime": 1789682527.786707,
+    "ast_hash": "6ba80287a5709d37e90e7bf516f135bb",
+    "semantic_hash": ""
+  },
+  "frontend/src/router/index.ts": {
+    "mtime": 1789682516.6932378,
+    "ast_hash": "39edacce75ad605e05f4f3416b1cadc3",
+    "semantic_hash": ""
+  },
+  "frontend/src/services/api.ts": {
+    "mtime": 1789682373.1931431,
+    "ast_hash": "039578e790fb8cd568fd4e11e64da8a7",
+    "semantic_hash": ""
+  },
+  "frontend/src/services/socket.ts": {
+    "mtime": 1789682377.361747,
+    "ast_hash": "3dfebae0343ba5a50069a82cc559124f",
+    "semantic_hash": ""
+  },
+  "frontend/src/stores/chatStore.ts": {
+    "mtime": 1789699762.15999,
+    "ast_hash": "a0d61261439a3667e11cdd32e3d48471",
+    "semantic_hash": ""
+  },
+  "frontend/src/views/AnalyticsView.vue": {
+    "mtime": 1790215168.1999667,
+    "ast_hash": "0ddad36cf205e70ea3308fcc7d527e6c",
+    "semantic_hash": ""
+  },
+  "frontend/src/views/KnowledgeView.vue": {
+    "mtime": 1790215154.5835018,
+    "ast_hash": "cd43711ab2be9db51c794372077f7007",
+    "semantic_hash": ""
+  },
+  "frontend/src/views/LiveChatAgentView.vue": {
+    "mtime": 1790215118.8158007,
+    "ast_hash": "f78da59fb80ad935af9933f04e83f06a",
+    "semantic_hash": ""
+  },
+  "frontend/src/views/PlaygroundView.vue": {
+    "mtime": 1790215098.4797883,
+    "ast_hash": "52cb17f074c8571463d01fe7d8f07f23",
+    "semantic_hash": ""
+  },
+  "frontend/src/views/TicketingPipelineView.vue": {
+    "mtime": 1790215140.7887583,
+    "ast_hash": "cbc82879c7b513aa63956b3eceb06094",
+    "semantic_hash": ""
+  },
+  "frontend/tailwind.config.js": {
+    "mtime": 1789682261.2674499,
+    "ast_hash": "63019eaf79a3ff48c2b093bb8d03a259",
+    "semantic_hash": ""
+  },
+  "frontend/tsconfig.json": {
+    "mtime": 1789682248.1348631,
+    "ast_hash": "14ae7d66640b28a478d826385c09a17b",
+    "semantic_hash": ""
+  },
+  "frontend/tsconfig.node.json": {
+    "mtime": 1789682252.6641805,
+    "ast_hash": "767b2e9abe6452170cdc399ca052cfbc",
+    "semantic_hash": ""
+  },
+  "frontend/vite.config.ts": {
+    "mtime": 1789682257.1013274,
+    "ast_hash": "20fca79a48d69916be3fd70289b80074",
+    "semantic_hash": ""
+  },
+  "scraper/scrape_sita.py": {
+    "mtime": 1789682235.2925625,
+    "ast_hash": "75b5a96bab44fbb8d34368a50539f0c8",
+    "semantic_hash": ""
+  },
+  "frontend/index.html": {
+    "mtime": 1789682271.6631575,
+    "ast_hash": "81ed5f4b8519e7c6a2aadbb5a6e57244",
+    "semantic_hash": ""
+  },
+  "scraper/requirements.txt": {
+    "mtime": 1789682226.4180067,
+    "ast_hash": "e43d25ead1c7592e4c85fc175aac65fd",
+    "semantic_hash": ""
+  }
+}
