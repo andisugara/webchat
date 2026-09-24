@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "backend/src/server.ts": {
-    "mtime": 1789682080.942119,
-    "ast_hash": "533f1a06248c299337102436c80a4761",
+    "mtime": 1790218522.6743326,
+    "ast_hash": "ddc6942cc10de7339bdc43ce90f16697",
     "semantic_hash": ""
   },
   "backend/src/services/chunkerService.ts": {
@@ -215,8 +215,8 @@
     "semantic_hash": ""
   },
   "docker-compose.yml": {
-    "mtime": 1790215966.6068225,
-    "ast_hash": "913a1694eae9eed8902efc379dfeae36",
+    "mtime": 1790217205.6430426,
+    "ast_hash": "4bc9e386915189fbe39f1c3e17b3f483",
     "semantic_hash": ""
   }
 }

@@ -40,9 +40,11 @@ initSocketIO(server, FRONTEND_URL);
 async function startServer() {
   try {
     await initDatabase();
-    server.listen(PORT, () => {
-      console.log(`🚀 SITA Badung Webchat Backend running on http://localhost:${PORT}`);
-      console.log(`📊 Health check available at http://localhost:${PORT}/health`);
+    server.listen(PORT, '0.0.0.0', () => {
+      console.log(`🚀 SITA Badung Webchat Backend is running!`);
+      console.log(`   ➜ Local:   http://localhost:${PORT}`);
+      console.log(`   ➜ Network: http://0.0.0.0:${PORT} (Accessible via Server IP / Container)`);
+      console.log(`📊 Health check available at: http://localhost:${PORT}/health`);
     });
   } catch (error) {
     console.error('❌ Failed to start server:', error);
