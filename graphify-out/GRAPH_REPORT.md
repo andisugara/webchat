@@ -1,13 +1,18 @@
 # Graph Report - webchat  (2026-09-24)
 
 ## Corpus Check
-- 41 files · ~21,093 words
+- 41 files · ~21,190 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
 - 345 nodes · 502 edges · 20 communities
 - Extraction: 96% EXTRACTED · 4% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
+
+## Graph Freshness
+- Built from commit: `c79dfc57`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
 - query

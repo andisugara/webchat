@@ -35,7 +35,7 @@
     "semantic_hash": ""
   },
   "backend/src/db/init.ts": {
-    "mtime": 1789681897.2310266,
+    "mtime": 1790218858.486101,
     "ast_hash": "3eb042426b4b746d15b8daecc7c3210e",
     "semantic_hash": ""
   },
@@ -50,8 +50,8 @@
     "semantic_hash": ""
   },
   "backend/src/server.ts": {
-    "mtime": 1789682080.942119,
-    "ast_hash": "533f1a06248c299337102436c80a4761",
+    "mtime": 1790218888.4687862,
+    "ast_hash": "ddc6942cc10de7339bdc43ce90f16697",
     "semantic_hash": ""
   },
   "backend/src/services/chunkerService.ts": {
@@ -165,8 +165,8 @@
     "semantic_hash": ""
   },
   "frontend/src/views/LiveChatAgentView.vue": {
-    "mtime": 1790215118.8158007,
-    "ast_hash": "f78da59fb80ad935af9933f04e83f06a",
+    "mtime": 1790215780.925616,
+    "ast_hash": "9cef8d73d198bd3e5b67c65f385a64db",
     "semantic_hash": ""
   },
   "frontend/src/views/PlaygroundView.vue": {
@@ -195,8 +195,8 @@
     "semantic_hash": ""
   },
   "frontend/vite.config.ts": {
-    "mtime": 1789682257.1013274,
-    "ast_hash": "20fca79a48d69916be3fd70289b80074",
+    "mtime": 1790216360.7281282,
+    "ast_hash": "c2934229e266e18865e4d8614a6e8222",
     "semantic_hash": ""
   },
   "scraper/scrape_sita.py": {
@@ -212,6 +212,11 @@
   "scraper/requirements.txt": {
     "mtime": 1789682226.4180067,
     "ast_hash": "e43d25ead1c7592e4c85fc175aac65fd",
+    "semantic_hash": ""
+  },
+  "docker-compose.yml": {
+    "mtime": 1790217205.6430426,
+    "ast_hash": "4bc9e386915189fbe39f1c3e17b3f483",
     "semantic_hash": ""
   }
 }
