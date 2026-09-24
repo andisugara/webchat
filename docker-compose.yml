@@ -7,7 +7,7 @@ services:
     container_name: webchat-backend
     restart: always
     ports:
-      - "8024:8021"
+      - "8024:8024"
     env_file:
       - ./backend/.env
     networks:
