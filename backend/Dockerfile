@@ -14,6 +14,6 @@ COPY . .
 # Compile TypeScript
 RUN npm run build
 
-EXPOSE 8021
+EXPOSE 8024
 
 CMD ["npm", "start"]
